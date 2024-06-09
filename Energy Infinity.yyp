@@ -43,7 +43,6 @@
     {"id":{"name":"spr_item","path":"sprites/spr_item/spr_item.yy",},},
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},},
     {"id":{"name":"spr_produtos","path":"sprites/spr_produtos/spr_produtos.yy",},},
-    {"id":{"name":"w","path":"sprites/w/w.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

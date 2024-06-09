@@ -22,6 +22,5 @@
     {"name":"spr_energy","order":1,"path":"sprites/spr_energy/spr_energy.yy",},
     {"name":"spr_item","order":3,"path":"sprites/spr_item/spr_item.yy",},
     {"name":"spr_produtos","order":2,"path":"sprites/spr_produtos/spr_produtos.yy",},
-    {"name":"w","order":3,"path":"sprites/w/w.yy",},
   ],
 }
