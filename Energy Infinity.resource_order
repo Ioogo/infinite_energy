@@ -17,8 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_botao","order":3,"path":"objects/obj_botao/obj_botao.yy",},
     {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
+    {"name":"spr_botao","order":4,"path":"sprites/spr_botao/spr_botao.yy",},
     {"name":"spr_energy","order":1,"path":"sprites/spr_energy/spr_energy.yy",},
     {"name":"spr_item","order":3,"path":"sprites/spr_item/spr_item.yy",},
     {"name":"spr_produtos","order":2,"path":"sprites/spr_produtos/spr_produtos.yy",},

@@ -23,6 +23,8 @@ function atualiza_tempo()
 	global.framerate = global.gamesegundos * global.game_spd;
 }
 
+global.exibe_managers = false;
+
 //Dinheiro
 global.energy = 1;
 
