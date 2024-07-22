@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "indice": 0,
+      "nome": "Morango",
+      "custo_base": 4,
+      "tempo": 1,
+      "lucro_base": 1,
+      "descricao": "Um morango bem saboroso."
+    },
+    {
+      "indice": 1,
+      "nome": "Bala",
+      "custo_base": 60,
+      "tempo": 3,
+      "lucro_base": 60,
+      "descricao": "Bala azeda deliciosa!"
+    },
+    {
+      "indice": 2,
+      "nome": "Cereja",
+      "custo_base": 720,
+      "tempo": 6,
+      "lucro_base": 540,
+      "descricao": "Cereja com cobertura a escolha."
+    },
+    {
+      "indice": 3,
+      "nome": "Bengala doce",
+      "custo_base": 8640,
+      "tempo": 12,
+      "lucro_base": 4320,
+      "descricao": "Uma begala doce, ideal para comer no fim do ano."
+    },
+    {
+      "indice": 4,
+      "nome": "Donut",
+      "custo_base": 103680,
+      "tempo": 12,
+      "lucro_base": 51840,
+      "descricao": "O doce favorito do Homer Simplson."
+    },
+    {
+      "indice": 5,
+      "nome": "Cheesecake",
+      "custo_base": 1244160,
+      "tempo": 96,
+      "lucro_base": 622080,
+      "descricao": "Cheesecake ou torta de queijo é uma torta doce feita com queijo cremoso."
+    },
+    {
+      "indice": 6,
+      "nome": "Sorvete",
+      "custo_base": 14929920,
+      "tempo": 384,
+      "lucro_base": 7464960,
+      "descricao": "Uma bola de sorvete cremoso em um casquinha crocante."
+    },
+    {
+      "indice": 7,
+      "nome": "Brownie",
+      "custo_base": 179159040,
+      "tempo": 1536,
+      "lucro_base": 89579520,
+      "descricao": "Um pedaço de brownie com cobertura de morango, macio por dentro e crocante por cima."
+    },
+    {
+      "indice": 8,
+      "nome": "Cupcake",
+      "custo_base": 2149908480,
+      "tempo": 6144,
+      "lucro_base": 1074954240,
+      "descricao": "Um bolinho com cobertura e recheio."
+    },
+    {
+      "indice": 9,
+      "nome": "Bolo de Aniversário",
+      "custo_base": 25798901760,
+      "tempo": 36864,
+      "lucro_base": 29668737024,
+      "descricao": "Um bolo de aniversário decorado com chantilly e velas coloridas."
+    }
+  ]
+}

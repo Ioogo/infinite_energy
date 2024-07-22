@@ -1,10 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-draw_text(x, y, tenho_manager);
+//draw_text(x, y, tenho_manager);
 
 //Só vou aparecer se a pessoa tiver dinheiro para me comprar
-if (global.energy > custo/2 or comprado)
+/*if (global.energy > custo/2 or comprado)
 {
 	desenha_produto();
 }
@@ -15,4 +15,6 @@ else
 
 draw_set_color(c_black);
 draw_text(x, y, tenho_manager);
-draw_set_color(-1);
+draw_set_color(-1);*/
+
+//desenha_produto()

@@ -14,7 +14,8 @@ else
 
 if (keyboard_check_pressed(ord("L")))
 {
-	global.energy += 1000
+	global.energy += 100000;
 }
 
-gerencia_produtos()
+gerencia_produtos();
+gerencia_managers();
