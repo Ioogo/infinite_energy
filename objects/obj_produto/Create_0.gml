@@ -14,17 +14,8 @@ meu_y = 0;
 fazer = false;
 infos = false;
 
-//Manager
-if (array_length(global.fontes) <= indice)
-{
-	tenho_manager = global.fontes[indice];
-}
-else 
-{
-	array_push(global.fontes, 0);
-	tenho_manager = 0;
-}
-
+tenho_manager = false;
+//show_message(global.manager);
 //Meus custos
 custo = custo_base; 
 
@@ -53,6 +44,15 @@ comprar = function()
 	level++;
 	//Lucro com base no lvl e lucro base
 	lucro = lucro_base * level;
+}
+
+ajusta_infos = function()
+{
+	lucro = lucro_base * level;
+	custo = floor(custo_base * (power(incremento, level)));
+	
+	//Atualizando o comprado
+	if (comprado) fazer = true;
 }
 
 acao = function() 

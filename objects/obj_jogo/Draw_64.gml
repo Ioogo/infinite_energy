@@ -5,7 +5,7 @@
 var _n = 0;
 var _alt = 20;
 draw_set_halign(0);
-var _str = "R$ " + string_format(global.energy,0,2);
+var _str = convert_num(global.energy);
 draw_text(20, _alt * _n++,_str);
 draw_set_halign(1);
 
@@ -29,5 +29,6 @@ for (var i = 0; i < array_length(global.fontes); i++)
 		}
 	}
 }
-
-draw_text(20, _alt * _n++, _dinheiro_seg);
+global.energy_seg = _dinheiro_seg;
+var _str = convert_num(global.energy_seg)
+draw_text(20, _alt * _n++, _str);

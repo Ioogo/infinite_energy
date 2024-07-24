@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "indice": 0,
+      "nome": "Strawberry",
+      "custo_base": 4,
+      "tempo": 1,
+      "lucro_base": 1,
+      "descricao": "A very tasty strawberry."
+    },
+    {
+      "indice": 1,
+      "nome": "Candy",
+      "custo_base": 60,
+      "tempo": 3,
+      "lucro_base": 60,
+      "descricao": "Delicious sour candy!"
+    },
+    {
+      "indice": 2,
+      "nome": "Cherry",
+      "custo_base": 720,
+      "tempo": 6,
+      "lucro_base": 540,
+      "descricao": "Cherry with the topping of your choice."
+    },
+    {
+      "indice": 3,
+      "nome": "Sweet Cane",
+      "custo_base": 8640,
+      "tempo": 12,
+      "lucro_base": 4320,
+      "descricao": "A sweet cane, ideal for eating at the end of the year."
+    },
+    {
+      "indice": 4,
+      "nome": "Donut",
+      "custo_base": 103680,
+      "tempo": 12,
+      "lucro_base": 51840,
+      "descricao": "Homer Simpson's favorite treat."
+    },
+    {
+      "indice": 5,
+      "nome": "Cheesecake",
+      "custo_base": 1244160,
+      "tempo": 96,
+      "lucro_base": 622080,
+      "descricao": "Cheesecake or cheese pie is a sweet pie made with creamy cheese."
+    },
+    {
+      "indice": 6,
+      "nome": "Ice Cream",
+      "custo_base": 14929920,
+      "tempo": 384,
+      "lucro_base": 7464960,
+      "descricao": "A scoop of creamy ice cream in a crunchy cone."
+    },
+    {
+      "indice": 7,
+      "nome": "Brownie",
+      "custo_base": 179159040,
+      "tempo": 1536,
+      "lucro_base": 89579520,
+      "descricao": "A piece of brownie with strawberry topping, soft on the inside and crunchy on top."
+    },
+    {
+      "indice": 8,
+      "nome": "Cupcake",
+      "custo_base": 2149908480,
+      "tempo": 6144,
+      "lucro_base": 1074954240,
+      "descricao": "A small cake with frosting and filling."
+    },
+    {
+      "indice": 9,
+      "nome": "Birthday Cake",
+      "custo_base": 25798901760,
+      "tempo": 36864,
+      "lucro_base": 29668737024,
+      "descricao": "A birthday cake decorated with whipped cream and colorful candles."
+    }
+  ]
+}

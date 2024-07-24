@@ -1,5 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+alarm[0] = game_get_speed(gamespeed_fps) * 120
+
+//Carregando os dados
+//carrega_dados();
+
+//Ao criar o objeto jogo as informações serão carregadas
+load_game();
 
 //lista dos produtos
 
@@ -28,11 +35,31 @@ produtos_y = 0 + base_y;
 cria_produtos = function(_qtd = 1) 
 {
 	for (var i = 0; i < _qtd; i++)
-	{
+	{	
 		//struct com os meus dados que eu estou pegando do meu json
 		var _struct = global.struct_produtos[i];
 		
+		//Atualizando o manager
+		
 		produtos[i] = instance_create_layer(0, 0, layer, obj_produto, _struct);
+		
+		//Passando as informações para os produtos
+		//Se eu tenho as informaçõe eu faço essa parte
+		if (global.produtos_info[i] != 0)
+		{
+			//Atualizando o manager
+			global.manager[i] = global.produtos_info[i].tenho_manager;
+			
+			with(produtos[i])
+			{
+				level = global.produtos_info[i].level;
+				comprado = global.produtos_info[i].comprado;
+				tenho_manager = global.produtos_info[i].tenho_manager;
+				
+				//Atualizando as informações
+				ajusta_infos();
+			}
+		}
 	}
 }
 
@@ -41,8 +68,11 @@ cria_managers = function()
 	//1 manager para cada produto
 	for (var i = 0; i < array_length(produtos); i++)
 	{
-		var _meu_produto;
-		managers[i] = instance_create_layer(900, 100 + i * 100, layer,obj_manager);
+		var _meu_produto = 
+		{
+			indice : i
+		}
+		managers[i] = instance_create_layer(900, 100 + i * 100, layer,obj_manager, _meu_produto);
 		
 		managers[i].custo = global.fontes[i].custo_base * 10;
 		managers[i].indice = i;

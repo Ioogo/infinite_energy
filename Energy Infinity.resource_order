@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_botao","order":3,"path":"objects/obj_botao/obj_botao.yy",},
+    {"name":"obj_idioma","order":4,"path":"objects/obj_idioma/obj_idioma.yy",},
     {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
+    {"name":"rm_idioma","order":1,"path":"rooms/rm_idioma/rm_idioma.yy",},
     {"name":"funcoes","order":1,"path":"scripts/funcoes/funcoes.yy",},
     {"name":"spr_botao","order":4,"path":"sprites/spr_botao/spr_botao.yy",},
     {"name":"spr_energy","order":1,"path":"sprites/spr_energy/spr_energy.yy",},

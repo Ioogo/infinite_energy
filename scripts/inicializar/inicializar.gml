@@ -27,31 +27,14 @@ global.exibe_managers = false;
 
 //Dinheiro
 global.energy = 4;
+global.energy_seg = 0;
 
 //Informações dos manager
-global.manager = [0,0,0,0,0,0,0,0];
+global.manager = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 //Lista das fontes de energia
-global.fontes = [0,0,0,0,0,0,0,0];
+global.fontes = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+global.produtos_info = array_create(10, 0);
 
-//Abrindo o meu json
-var _file = file_text_open_read("dados.json");
-var _text = "";
-//Loop para ler todo o meu file
-while(true)
-{
-	//se ele chegou no final do file, ele sai do loop
-	if (file_text_eof(_file))
-	{
-		break;
-	}
-	else 
-	{
-		var _linha = file_text_readln(_file);
-		_text += _linha;
-	}
-}
-//Convertendo esse texto em uma struct
-global.struct_produtos = json_parse(_text).items;
+global.idioma = 0;
 
-//show_message(_struct.items[0]);

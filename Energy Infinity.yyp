@@ -27,6 +27,7 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"dados_en.json","CopyToMask":-1,"filePath":"datafiles","name":"dados_en.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"dados.json","CopyToMask":-1,"filePath":"datafiles","name":"dados.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -38,9 +39,11 @@
   "resources":[
     {"id":{"name":"fnt_texto","path":"fonts/fnt_texto/fnt_texto.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
+    {"id":{"name":"obj_idioma","path":"objects/obj_idioma/obj_idioma.yy",},},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"obj_produto","path":"objects/obj_produto/obj_produto.yy",},},
+    {"id":{"name":"rm_idioma","path":"rooms/rm_idioma/rm_idioma.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"funcoes","path":"scripts/funcoes/funcoes.yy",},},
     {"id":{"name":"inicializar","path":"scripts/inicializar/inicializar.yy",},},
@@ -54,6 +57,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_idioma","path":"rooms/rm_idioma/rm_idioma.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
